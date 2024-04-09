@@ -2,6 +2,8 @@ package Teste;
 
 import static org.junit.jupiter.api.Assertions.*;
 import entidades.Cliente;
+import entidades.Fornecedor;
+import entidades.Funcionario;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -18,6 +20,29 @@ public class TesteListagens {
 
         clientes.add(cliente);
         assertNotNull(clientes);
+    }
+
+    @Test
+    void ListaFuncionarios(){
+        List<Funcionario> funcionarios = new ArrayList<Funcionario>();
+
+        Funcionario funcionario = new Funcionario("987.654.321-01","Carlos Cesar",1277.58,
+                "25/03/1999","94 985403-5525","Rua Cornélio Barros, Jardim Planalto, Xique-Xique","Cozinheiro","01/05/2015","carlinhosgera@gmail.com","Integral","CLT");
+
+        funcionarios.add(funcionario);
+        assertNotNull(funcionarios);
+    }
+
+    @Test
+    void ListaFornecedores(){
+        List<Fornecedor> fornecedores = new ArrayList<Fornecedor>();
+
+        Fornecedor fornecedor = new Fornecedor("74.551.464/0001-22","SalgadoXX","Rua Aqueduto Reinaldinho,Lar dos Mariscos,Xique-Xique",
+                "93 2341-1824","salgadoscia@gmail.com","Coxinha");
+
+
+        fornecedores.add(fornecedor);
+        assertNotNull(fornecedores);
     }
 }
 
