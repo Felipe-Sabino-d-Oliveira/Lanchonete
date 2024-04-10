@@ -1,10 +1,8 @@
 package Teste;
-
 import principal.LoginFuncionario;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 public class TesteFuncionario {
-
     @Test
     void testeLogin() {
         LoginFuncionario sistemaFuncionario = new LoginFuncionario(2);
