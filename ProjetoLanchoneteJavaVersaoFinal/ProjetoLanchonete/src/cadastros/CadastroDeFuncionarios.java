@@ -10,6 +10,9 @@ import interfaces.CadRemLis;
 import utilitarios.LimparTela;
 
 public class CadastroDeFuncionarios implements CadRemLis{
+	public List<Funcionario> getFuncionarios() {
+		return funcionarios;
+	}
    	List<Funcionario> funcionarios = new ArrayList<Funcionario>();
 	// Cadastrar funcionário 
 	@Override
