@@ -54,8 +54,7 @@ public class TesteListagens {
 
         produtosDisponiveis.add(produto);
         assertNotNull(produtosDisponiveis);
-
+    //Verificar os {}
     }
-}
 }
 
