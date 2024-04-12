@@ -20,7 +20,7 @@ public class Funcionario extends Pessoa{
     }
 
 	//Métodos para acessar os atributos de funcionário
-    public String getCargo(){
+	public String getCargo(){
     	return cargo;
 	}
 

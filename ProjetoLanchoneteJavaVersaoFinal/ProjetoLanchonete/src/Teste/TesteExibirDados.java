@@ -33,7 +33,7 @@ public class TesteExibirDados {
         assertEquals("Rua Aqueduto Reinaldinho,Lar dos Mariscos,Xique-Xique",fornecedor.getEndereco());
         assertEquals("93 2341-1824",fornecedor.getTelefone());
         assertEquals("salgadoscia@gmail.com",fornecedor.getEmail());
-        assertEquals("coxinha",fornecedor.getEmail());
+        assertEquals("Coxinha", fornecedor.getProdutoFornecido());
     }
 
     @Test

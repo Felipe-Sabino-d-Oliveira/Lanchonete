@@ -1,5 +1,5 @@
 package Teste;
-
+import cadastros.CadastroDeFuncionarios;
 import principal.LoginFuncionario;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
