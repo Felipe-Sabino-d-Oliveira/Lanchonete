@@ -24,4 +24,34 @@ public class TesteFuncionario {
             fail("Exceção lançada: " + e.getMessage());
         }
     }
+
+    // Terminar o Metodo
+    @Test
+    public void testCadastrarFuncionario() {
+        CadastroDeFuncionarios cadastro = new CadastroDeFuncionarios();
+        cadastro.Cadastrar();
+
+        assertFalse(cadastro.getFuncionarios().isEmpty());
+    }
+
+    @Test
+    public void testRemoverFuncionario() {
+        CadastroDeFuncionarios cadastro = new CadastroDeFuncionarios();
+        cadastro.Cadastrar();
+
+        assertFalse(cadastro.getFuncionarios().isEmpty());
+
+        cadastro.Remover();
+        assertTrue(cadastro.getFuncionarios().isEmpty());
+    }
+
+    @Test
+    public void testListarFuncionarios() {
+        CadastroDeFuncionarios cadastro = new CadastroDeFuncionarios();
+        cadastro.Cadastrar();
+
+        assertFalse(cadastro.getFuncionarios().isEmpty());
+
+        cadastro.Listar();
+    }
 }
