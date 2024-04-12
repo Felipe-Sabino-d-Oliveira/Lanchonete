@@ -44,5 +44,17 @@ public class TesteListagens {
         fornecedores.add(fornecedor);
         assertNotNull(fornecedores);
     }
+    @Test
+    void ListaProdutos(){
+        List<Produto> produtosDisponiveis = new ArrayList<>();
+
+        Produto produto = new Produto("Coxinha",15,50,"12/12/1999",
+                "Beyond");
+
+
+        produtosDisponiveis.add(produto);
+        assertNotNull(produtosDisponiveis);
+    //Verificar os {}
+    }
 }
 
