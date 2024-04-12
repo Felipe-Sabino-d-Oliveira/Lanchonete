@@ -53,9 +53,18 @@ public class TesteExibirDados {
         assertEquals("carlinhosgera@gmail.com",funcionario.getEmail());
         assertEquals("Integral",funcionario.getTurno());
         assertEquals("CLT",funcionario.getTipoContrato());
+    }
+    @Test
+    void testeExibirDadosProdutos(){
 
+        Produto produto = new Produto("Coxinha",15,50,"12/12/1999",
+                "Beyond");
 
-
+        assertEquals("Coxinha",produto.getNome());
+        assertEquals(15, produto.getPreco());
+        assertEquals(50, produto.getQuantidade());
+        assertEquals("12/12/1999",produto.getValidade());
+        assertEquals("Beyond", produto.getFornecedor());
     }
 }
 
