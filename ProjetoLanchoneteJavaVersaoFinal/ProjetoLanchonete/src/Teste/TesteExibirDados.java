@@ -5,6 +5,7 @@ import entidades.Fornecedor;
 import entidades.Cliente;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+import produto.Produto;
 
 public class TesteExibirDados {
 

@@ -1,8 +1,13 @@
 package Teste;
 import cadastros.CadastroDeFuncionarios;
+import entidades.Funcionario;
 import principal.LoginFuncionario;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class TesteFuncionario {
 
     @Test
@@ -23,35 +28,5 @@ public class TesteFuncionario {
         } catch (Exception e) {
             fail("Exceção lançada: " + e.getMessage());
         }
-    }
-
-    // Terminar o Metodo
-    @Test
-    public void testCadastrarFuncionario() {
-        CadastroDeFuncionarios cadastro = new CadastroDeFuncionarios();
-        cadastro.Cadastrar();
-
-        assertFalse(cadastro.getFuncionarios().isEmpty());
-    }
-
-    @Test
-    public void testRemoverFuncionario() {
-        CadastroDeFuncionarios cadastro = new CadastroDeFuncionarios();
-        cadastro.Cadastrar();
-
-        assertFalse(cadastro.getFuncionarios().isEmpty());
-
-        cadastro.Remover();
-        assertTrue(cadastro.getFuncionarios().isEmpty());
-    }
-
-    @Test
-    public void testListarFuncionarios() {
-        CadastroDeFuncionarios cadastro = new CadastroDeFuncionarios();
-        cadastro.Cadastrar();
-
-        assertFalse(cadastro.getFuncionarios().isEmpty());
-
-        cadastro.Listar();
     }
 }

@@ -5,6 +5,7 @@ import entidades.Cliente;
 import entidades.Fornecedor;
 import entidades.Funcionario;
 import org.junit.jupiter.api.Test;
+import produto.Produto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,10 +52,8 @@ public class TesteListagens {
         Produto produto = new Produto("Coxinha",15,50,"12/12/1999",
                 "Beyond");
 
-
         produtosDisponiveis.add(produto);
         assertNotNull(produtosDisponiveis);
-    //Verificar os {}
     }
 }
 
