@@ -1,9 +1,8 @@
 package Teste;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 
 import org.junit.jupiter.api.Test;
-
 import pedidos.EfetuarPedido;
 import pedidos.Pedido;
 
@@ -12,6 +11,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TesteRemocoes{
 
@@ -22,6 +23,7 @@ public class TesteRemocoes{
 
         String saidaAtual = capturarSaidaDoConsole();
         assertEquals(saidaEsperada, saidaAtual);
+        
     }
 
     private String capturarSaidaDoConsole() {
