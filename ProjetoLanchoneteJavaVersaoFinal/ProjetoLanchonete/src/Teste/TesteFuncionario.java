@@ -1,8 +1,13 @@
 package Teste;
-
+import cadastros.CadastroDeFuncionarios;
+import entidades.Funcionario;
 import principal.LoginFuncionario;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class TesteFuncionario {
 
     @Test
