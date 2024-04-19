@@ -86,7 +86,7 @@ public class CadastroDeClientes implements CadRemLis{
 		        System.out.println("\nSituação: Cliente não encontrado!\n");
 		        System.out.println("-------------------------------------\n");
 		    }
-	    }		
+	    }
 	}
 
 	@Override
