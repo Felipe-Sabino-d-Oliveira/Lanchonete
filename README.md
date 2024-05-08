@@ -22,7 +22,7 @@ Para configurar o projeto localmente, siga estas etapas:
 
 # Integrantes do Projeto e contato
 
-- Carlos Henrique <a href = "mailto:contato@seu-usuário-aqui"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+- Carlos Henrique <a href = "mailto:contato@carloshribeiro99"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 - Felipe Sabino <a href = "mailto:contato@fsabino006"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 - Matheus Aquino <a href = "mailto:contato@offlinematheus"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 - Thiago Ribeiro <a href = "mailto:contato@thiagoralmeida23"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
